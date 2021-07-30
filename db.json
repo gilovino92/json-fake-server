@@ -1,10 +1,143 @@
 {
-	"cards": [
-		{
-			"name": "",
-			"expired_date": "",
-			"cvv": "",
-			"card_number": ""
-		}
-	]
+  "profile": {
+    "id": 1,
+    "lastname": "Ho",
+    "firstname": "Huy",
+    "mobile": {
+      "countryCode": "84",
+      "number": "968075162"
+    },
+    "dateOfBirth": "1996-03-17",
+    "address": "123 ABC Street, D Ward, E District, City, VN"
+  },
+  "cards": [
+    {
+      "id": 1,
+      "ownerID": "123",
+      "name": "Mark Henry",
+      "expired_date": "07/25",
+      "card_number": "1111 2222 3333 4444",
+      "cvv": ""
+    }
+  ],
+  "loans": [
+    {
+      "terms": 43,
+      "amount": 376230.5,
+      "rate": 0.31,
+      "ownerID": 1,
+      "lastname": "Ho",
+      "firstname": "Huy",
+      "approved": true,
+      "createdAt": 1627673515591,
+      "id": 1
+    },
+    {
+      "terms": 78,
+      "amount": 430882,
+      "rate": 0.1,
+      "ownerID": 1,
+      "lastname": "Ho",
+      "firstname": "Huy",
+      "approved": false,
+      "createdAt": 1627674266099,
+      "id": 2
+    },
+    {
+      "terms": 70,
+      "amount": 175306,
+      "rate": 0.3,
+      "ownerID": 1,
+      "lastname": "Ho",
+      "firstname": "Huy",
+      "approved": false,
+      "createdAt": 1627675356113,
+      "id": 3
+    },
+    {
+      "terms": 48,
+      "amount": 136728.5,
+      "rate": 0.18,
+      "ownerID": 1,
+      "lastname": "Ho",
+      "firstname": "Huy",
+      "approved": true,
+      "createdAt": 1627675402089,
+      "id": 4
+    }
+  ],
+  "transactions": [
+    {
+      "ownerID": 1,
+      "category": 1,
+      "type": "deposit",
+      "details": {
+        "name": "Ho Huy",
+        "date": "31 thg 7, 2021",
+        "amount": 9915.861061627907
+      },
+      "createdAt": 1627676355153,
+      "id": 1
+    },
+    {
+      "ownerID": 1,
+      "category": 1,
+      "type": "deposit",
+      "details": {
+        "name": "Ho Huy",
+        "date": "31 thg 7, 2021",
+        "amount": 3094.6217166666665
+      },
+      "createdAt": 1627676375066,
+      "id": 2
+    },
+    {
+      "ownerID": 1,
+      "category": 1,
+      "type": "deposit",
+      "details": {
+        "name": "Ho Huy",
+        "date": "31 thg 7, 2021",
+        "amount": 9915.861061627907
+      },
+      "createdAt": 1627676379807,
+      "id": 3
+    },
+    {
+      "ownerID": 1,
+      "category": 3,
+      "type": "deposit",
+      "details": {
+        "name": "Ho Huy",
+        "date": "31 thg 7, 2021",
+        "amount": 3094.6217166666665
+      },
+      "createdAt": 1627676381278,
+      "id": 4
+    },
+    {
+      "ownerID": 1,
+      "category": 2,
+      "type": "widthdraw",
+      "details": {
+        "name": "Ho Huy",
+        "date": "31 thg 7, 2021",
+        "amount": 9915.861061627907
+      },
+      "createdAt": 1627676381599,
+      "id": 5
+    },
+    {
+      "ownerID": 1,
+      "category": 1,
+      "type": "deposit",
+      "details": {
+        "name": "Ho Huy",
+        "date": "31 thg 7, 2021",
+        "amount": 3094.6217166666665
+      },
+      "createdAt": 1627676382946,
+      "id": 6
+    }
+  ]
 }
